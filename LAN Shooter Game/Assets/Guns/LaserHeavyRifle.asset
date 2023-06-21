@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef21aa358e4c2d44b89ea9a8495f4a2, type: 3}
+  m_Name: LaserHeavyRifle
+  m_EditorClassIdentifier: 
+  gunName: Heavy Rifle (Laser)
+  magazineCapacity: 75
+  magazines: 5
+  damage: 25
+  range: Infinity
+  loseUnfiredAmmo: 0
+  reloadSpeed: 2
+  fireRate: 10
+  gunFireMode: 3
+  adsEnabled: 1
+  toggleAds: 0
+  adsFov: 0
+  sightOverlay: {fileID: 0}
+  fireKey: 323
+  adsKey: 324
