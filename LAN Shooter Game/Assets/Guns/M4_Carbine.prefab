@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 8524189832115773119}
   - component: {fileID: 4203588237265628908}
   - component: {fileID: 7382544489302146289}
+  - component: {fileID: 5025414957679893242}
   m_Layer: 0
   m_Name: M4_Carbine
   m_TagString: Gun
@@ -439,3 +440,22 @@ MonoBehaviour:
   adsRecoilX: -1.5
   adsRecoilY: 2
   adsRecoilZ: 0.3
+--- !u!114 &5025414957679893242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6679755683033169023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
